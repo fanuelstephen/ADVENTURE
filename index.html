@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ====SCRIPT FOR ICONS -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <!-- ====CSS==== -->
+    <link rel="stylesheet" href="/CSS/style.css" />
+    <link rel="stylesheet" href="/CSS/queries.css" />
+
+    <title>Adventure</title>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <h1 class="logo">ADVANTURE</h1>
+      <ul class="nav-links">
+        <li class="active"><a href="#"></a>Home</li>
+        <li><a href="#"></a>Tours</li>
+        <li><a href="#"></a>Explore</li>
+        <li><a href="#"></a>About</li>
+        <li class="ctn"><a href="#"></a>Contant</li>
+      </ul>
+      <ion-icon class="menu-btn menu-icon" name="menu-outline"></ion-icon>
+    </nav>
+    <header>
+      <div class="header-content">
+        <h2>Explore the Colorful word</h2>
+        <div class="line"></div>
+        <h1>A Wornderfull Gift</h1>
+        <a href="#" class="ctn">Learn More</a>
+      </div>
+    </header>
+    <!-- =====EVENT -->
+    <section class="events">
+      <div class="title">
+        <h1>Upcoming Events</h1>
+        <div class="line"></div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <img src="/img/image-1.avif" alt="Photo 1" />
+          <h4>Evsrist Camp Trek</h4>
+          <p class="coll-p">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores,
+            sunt ipsam. Repellat dicta corrupti vel!
+          </p>
+          <a href="#" class="ctn">Learm More</a>
+        </div>
+        <div class="col">
+          <img src="/img/image-2.avif" alt="Photo 1" />
+          <h4>Walking Holiday</h4>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores,
+            sunt ipsam. Repellat dicta corrupti vel!
+          </p>
+          <a href="#" class="ctn">Learm More</a>
+        </div>
+      </div>
+    </section>
+    <section class="explore">
+      <div class="explore-content">
+        <h1>EXPLORE THE WORLD</h1>
+        <div class="line"></div>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque,
+          beatae modi? Necessitatibus neque doloribus corporis laboriosam aut
+          accusantium, inventore, quisquam pariatur numquam fuga excepturi
+          facilis?
+        </p>
+        <a href="#" class="ctn">Learn More</a>
+      </div>
+    </section>
+    <section class="tours">
+      <div class="row">
+        <div class="col content-col">
+          <h1>UPCOMING TOURS & DESTIONATION</h1>
+          <div class="line"></div>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod
+            laboriosam officia iste est quisquam ipsum quo voluptatem delectus,
+            a eius facilis rem sint, ea nemo obcaecati, porro tempore nihil sit?
+          </p>
+          <a href="#" class="ctn">Learn More</a>
+        </div>
+        <div class="col image-col">
+          <div class="image-gallery">
+            <img src="/img/image-4.jpg" alt="" />
+            <img src="/img/image-5.jpg" alt="" />
+            <img src="/img/image-6.jpg" alt="" />
+            <img src="/img/image-7.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer">
+      <p>
+        123 Fifty Avenue, NY 10160,New York,USA | Phone:800-123-456 |
+        Email:contant@example.com
+      </p>
+      <p>Copyright&copy;2020 Outdoor Advanture</p>
+    </section>
+    <script>
+      const menuBtn = document.querySelector(".menu-btn");
+      const navLinks = document.querySelector(".nav-links");
+
+      menuBtn.addEventListener("click", () => {
+        navLinks.classList.toggle("mobile-menu");
+      });
+    </script>
+  </body>
+</html>
