@@ -4,6 +4,9 @@
   .menu-btn {
     display: block;
   }
+  .explore-content .line {
+    margin-left: 1px;
+  }
   .navbar {
     padding: 0;
   }
